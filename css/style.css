@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+html,body {min-height: 100%;}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 15px;
+	line-height: 2;
+	-webkit-text-size-adjust: none;
+	background: #3C90E8;	
+	background: linear-gradient(#3C90E8 150px, #fff 350px);}
+body#top {
+	background: linear-gradient(#3C90E8 450px, #fff 600px);
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
+ul {list-style-type: none;}
+ol {padding-left: 40px;padding-bottom: 15px;}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+a {
+	color: #666;	
+}
+a:hover {
+	color: #3C90E8;
+}
+
+.ach{
+text-decoration: none;
+}
+
+#container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+header {
+	text-align: center;
+	height: 180px;
+	background: #3C90E8;
+}
+#logo  img {
+	width: 700px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#menubar {
+	text-align: center;	
+}
+
+#menubar li {
+	display: inline;	
+}
+#menubar li a {
+	text-decoration: none;
+	padding: 15px 30px;	
+	color: #fff;	
+}
+
+#menubar li a:hover {
+	background: url(../images/icon_arrow1.png) no-repeat center top;	
+}
+
+
+#contents {
+	background: #fff;	
+	padding: 3%;		
+}
+
+#contents h1 {
+	clear: both;
+	margin-bottom: 17px;
+	color: #fff;		
+	padding: 5px 20px;	
+	background: #2591d9;	
+}
+
+#contents h2 {
+	clear: both;
+	margin-bottom: 15px;
+	color: #fff;		
+	padding: 5px 20px;	
+	background: #3C90E8;	
+}
+
+#contents h3 {
+	clear: both;
+	margin-bottom: 15px;
+	padding: 3px 20px;	
+	border: 1px solid #ccc;	
+}
+
+#contents p {
+	padding: 0px 20px 14px;	
+}
+#contents h2 + p,
+#contents h3 + p {
+	margin-top: -5px;
+}
+
+.list {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;	
+	padding: 20px;	
+}
+
+.list h4 {
+	color: #25b1d9;	
+	font-size: 16px;	
+}
+
+.list img {
+	width: 20%;		
+	float: left;	
+	margin-right: 3%	
+}
+.list p {
+	padding: 0 !important;
+}
+
+
+footer {
+	clear: both;
+	text-align: center;	
+	padding: 20px 0px;	
+	
+	}
+	
+#FootRight{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	background-color:rgba(255,255,255,0.5);
+}
+footer a {
+	text-decoration: none;
+	border: none;
+}
+footer .pr {
+	display: block;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+
+#new dl {
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+
+#new dt {
+	font-weight: bold;	
+	float: left;
+	width: 8em;
+}
+
+#new dd {
+	padding-left: 8em;
+}
+
+
+
+
+
+/*テーブル
+---------------------------------------------------------------------------*/
+
+.ta1 {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.ta1, .ta1 td, .ta1 th {
+	border: 2px solid #3C30A8;	
+	padding: 10px;			
+	word-break: break-all;
+}
+
+.ta1 th.tamidashi {
+	width: auto;
+	text-align: left;	
+	background: #5CB0F8;	
+	color: #fff;	
+}
+
+.ta1 th {
+	width: 30%;	
+	text-align: center;	
+}
+
+#left{
+    width:40%;
+    float: left;
+}
+#right{
+     width:40%;
+     float: right
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.look {background: #e5e5e5;padding: 5px 10px;border-radius: 4px;}
+.mb15,.mb1em {margin-bottom: 15px;}
+.color1 {color: #E52355;}
+.color2 {color: #F52A78;}
+.pr {font-size: 10px;}
+.img4x img {width: 24%;}
+.img2x img {width: 48%;}
+.sp {
+display: none;}
+.pc {
+display: block;}
+
+
+/*画面幅480px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:480px){
+
+.img4x img {width: 48%;}
+.img2x img {width: 98%;}
+
+.sp {
+display: block;}
+.pc {
+display: none;}
+
+header {
+	text-align: center;
+	height: 150px;
+	background: #3C90E8;
+}
+
+
+#container {
+	width: 100%;	
+}
+
+#menubar li {
+	display:block;
+	/display: inline;
+	/zoom: 1;
+}
+#menubar li a {
+	padding: 15px 10px;
+	text-decoration: none;
+	color: #000;
+	display:block;
+}
+
+}
+
+
+#new h2.open {
+	background: #25b1d9 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+}
+#new h2.close {
+	background: #25b1d9 url(../images/btn_plus.png) no-repeat right center/34px 34px;
+}
+
+
+.ta1, .ta1 td, .ta1 th {
+	padding: 5px;			
+}
+
+}
