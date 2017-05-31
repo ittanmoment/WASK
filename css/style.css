@@ -199,7 +199,7 @@ footer .pr {
 }
 #right{
      width:40%;
-     float: right
+     float: right;
 }
 
 /*その他
@@ -211,6 +211,10 @@ footer .pr {
 .pr {font-size: 10px;}
 .img4x img {width: 24%;}
 .img2x img {width: 48%;}
+.imginline img {
+	width: 48%;
+ 	margin: 10px;
+}
 .sp {
 display: none;}
 .pc {
@@ -223,6 +227,11 @@ display: block;}
 
 .img4x img {width: 48%;}
 .img2x img {width: 98%;}
+.imginline img {
+	width: 100%;
+ 	margin: 10px;
+}
+
 
 .sp {
 display: block;}
