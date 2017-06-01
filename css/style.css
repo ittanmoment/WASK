@@ -236,17 +236,24 @@ display: none;}
 display: block;}
 
 
-/*画面幅480px以下の設定
+/*画面幅480px以下(スマホ等)
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:480px){
 
+/* 画像は全部大きくする(4x->2x 2x->1x right left->センタリング */
 .img4x img {width: 48%;}
 .img2x img {width: 98%;}
 .img_right {
 	width: 100%;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
 }
 .img_left{
 	width: 100%;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
 
