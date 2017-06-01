@@ -207,15 +207,29 @@ footer .pr {
 ---------------------------------------------------------------------------*/
 .look {background: #e5e5e5;padding: 5px 10px;border-radius: 4px;}
 .mb15,.mb1em {margin-bottom: 15px;}
+/* 1:faq用 2:強調表示(赤)
 .color1 {color: #E52355;}
 .color2 {color: #F52A78;}
 .pr {font-size: 10px;}
+
+/* 画像関連の設定 */
 .img4x img {width: 24%;}
 .img2x img {width: 48%;}
-.imginline img {
+.img_right{
 	width: 48%;
  	margin: 10px;
+	 float:right;
+	 clear:right;
 }
+
+.img_left{
+	width: 48%;
+ 	margin: 10px;
+	 clear:left;
+	 float:left;
+}
+
+/* スマホ用表示に使う */
 .sp {
 display: none;}
 .pc {
@@ -228,9 +242,11 @@ display: block;}
 
 .img4x img {width: 48%;}
 .img2x img {width: 98%;}
-.imginline img {
+.img_right {
 	width: 100%;
- 	margin: 10px;
+}
+.img_left{
+	width: 100%;
 }
 
 
