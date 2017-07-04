@@ -285,14 +285,13 @@ header {
 	display:block;
 }
 
-}
 
 
 #new h2.open {
-	background: #25b1d9 url(../images/btn_minus.png) no-repeat right center/34px 34px;
+	background: #3C90E8 url(../images/btn_minus.png) no-repeat right center/34px 34px;
 }
 #new h2.close {
-	background: #25b1d9 url(../images/btn_plus.png) no-repeat right center/34px 34px;
+	background: #3C90E8 url(../images/btn_plus.png) no-repeat right center/34px 34px;
 }
 
 
