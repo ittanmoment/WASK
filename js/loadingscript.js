@@ -2,10 +2,10 @@
 $(function()
 {
 	$( 'img.lazy' ).lazyload( {
-		threshold : 1 ,
+		threshold : 200 ,
 		effect : 'fadeIn' ,
-		effect_speed: 800 ,
-		failure_limit: 1 ,
+		effect_speed: 500 ,
+		failure_limit: 4 ,
 	} ) ;
 	$('nav.menu').meanmenu({
 		meanMenuClose: "x",
