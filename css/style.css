@@ -10,9 +10,9 @@ body {
 	line-height: 2;
 	-webkit-text-size-adjust: none;
 	background: #3C90E8;	
-	background: linear-gradient(#3C90E8 150px, #fff 350px);}
+	background: linear-gradient(#3C90E8 150px, #C4DAF4 350px);}
 body#top {
-	background: linear-gradient(#3C90E8 450px, #fff 600px);
+	background: linear-gradient(#3C90E8 450px, #C4DAF4 600px);
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
 ul {list-style-type: none;}
@@ -202,7 +202,9 @@ footer .pr {
      width:40%;
      float: right;
 }
-
+#clear{ 
+	clear: both;
+}
 /*その他
 ---------------------------------------------------------------------------*/
 .look {background: #e5e5e5;padding: 5px 10px;border-radius: 4px;}
@@ -215,6 +217,14 @@ footer .pr {
 /* 画像関連の設定 */
 .img4x img {width: 24%;}
 .img2x img {width: 48%;}
+.imgeve {
+	margin auto;
+	text-align: center;
+ }
+ .imgeve img {
+ 	width:48%
+ }
+ 
 .img_right{
 	width: 48%;
  	margin: 10px;
@@ -243,6 +253,7 @@ display: block;}
 /* 画像は全部大きくする(4x->2x 2x->1x right left->センタリング */
 .img4x img {width: 48%;}
 .img2x img {width: 98%;}
+.imgeve img {width:98%;}
 .img_right {
 	width: 100%;
 	 display: block;
@@ -270,7 +281,7 @@ header {
 
 
 #container {
-	width: 100%;	
+	width: 98%;	
 }
 
 #menubar li {
